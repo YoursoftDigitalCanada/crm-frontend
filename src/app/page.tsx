@@ -1,7 +1,11 @@
-import Image from "next/image";
+'use client';
+import LoginForm from "@/components/forms/login";
+import Themebtn from "@/components/buttons/theme";
 
 export default function Home() {
   return (
-    <div className="flex w-full h-full justify-center pt-[25%]">Hello there</div>
+    <div className="">
+      <LoginForm/> 
+    </div>
   );
 }
